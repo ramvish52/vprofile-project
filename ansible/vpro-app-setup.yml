@@ -12,7 +12,7 @@
 #      register: wardeploy
 #      tags:
 #       - deploy
-
+  tasks:
     - stat:
         path: /usr/local/tomcat8/webapps/ROOT
       register: artifact_stat
